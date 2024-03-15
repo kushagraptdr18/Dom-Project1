@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #F4EAE0;
+    overflow: hidden;
+    
+}
+.screen{
+    height: 100%;
+    background-color: #F4EAE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: all ease .3s;
+}
+.container{
+    box-shadow: 10px 10px 80px 10px #948c84;
+   
+    border-radius: 20px;
+    height: 550px;
+    padding: 20px;
+    width: 600px;
+    
+    
+    background-color: #F4DFC8;
+    text-align: center;
+
+}
+.container h1{
+    font-size: 50px;
+    font-family: kinta;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.name{
+    padding: 10px;
+}
+ .name input{
+    /* border: none; */
+    border: 1px solid rgb(185, 203, 208);
+    padding: 8px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
+}
+.name h2{
+    font-size: 28px;
+    font-family: gilroy;
+    font-weight: 300;
+}
+.age{
+    margin-top: 20px;
+}
+.age h2{
+    font-size: 28px;
+    font-family: gilroy;
+    font-weight: 300;
+
+}
+.age input{
+    border: none;
+    border: 1px solid rgb(185, 203, 208);
+    padding: 8px 0;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: center;
+}
+.container button{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(87, 83, 83);
+    cursor: pointer;
+    transition: all ease .3s;
+
+}
+.container button:hover{
+    background-color: #FAF6F0;
+    
+}
+.container button:active{
+    scale: 0.8;
+}
+
+#nav{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(20, 19, 19, 0.579);
+    font-family: kinta;
+    font-weight: 300;
+    
+}
+#nav h4{
+    font-size: 16px;
+    font-family: kinta;
+}
+#nav #left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.ques{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: start;
+    
+}
+.ques h1{
+    font-size: 28px;
+    font-family: gilroy;
+    font-weight: 300;
+    text-align: start;
+
+}
+.ques h1 span{
+    font-weight: 600;
+    padding-right: 20px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+    padding-left: 20px;
+}
+.options h4{
+    font-size: 20px;
+    font-family: kinta;
+    background-color: #F4EAE0;
+    width: fit-content;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all ease .3s;
+    cursor: pointer;
+
+}
+.options h4:hover{
+    background-color: #948c84;
+    color: #F4EAE0;
+
+}
+#submit{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(87, 83, 83);
+    cursor: pointer;
+    transition: all ease .3s;
+
+}
+#submit:hover{
+    background-color: #948c84;
+    color: #F4EAE0;
+}
+.container2{
+    text-align: center;
+    padding: 30px;
+    line-height: 1;
+    box-shadow: 10px 10px 80px 10px #948c84;
+    border-radius: 20px;
+    height: 550px;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container2 h1{
+    font-size: 50px;
+    font-family: kinta;
+}
+.container2 h4{
+    font-size: 23px;
+    font-family: kinta;
+}
+.container2 h2{
+    font-size: 35px;
+    color: red
+}
+.container2 span{
+    color: rgb(44, 152, 44);
+    font-weight: 900;
+}
+.con
